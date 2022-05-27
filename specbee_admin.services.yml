@@ -1,0 +1,3 @@
+services:
+  specbee_admin.time_service:
+    class: Drupal\specbee_admin\TimeService

@@ -1,0 +1,6 @@
+specbee_admin.settings_form:
+  title: 'specbee admin'
+  description: 'Configure specbee admin.'
+  parent: system.admin_config_system
+  route_name: specbee_admin.settings_form
+  weight: 10

@@ -1,0 +1,5 @@
+<div>
+	Country : <p style="display:inline">{{country}}</p><br>
+	City : <p style="display:inline">{{city}}</p><br>
+	Timestamp : <p style="display:inline">{{timestamp}}</p><br>
+</div>

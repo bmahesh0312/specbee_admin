@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for specbee admin module.
+ */
+/**
+ * Implements hook_theme().
+ */
+function specbee_admin_theme($existing, $type, $theme, $path): array {
+  return [
+    'location_block' => [
+      'variables' => [
+        'city' => NULL,
+        'country' => NULL,
+        'timestamp' => NULL,
+      ],
+    ],
+  ];
+}

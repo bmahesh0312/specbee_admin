@@ -1,0 +1,25 @@
+<?php
+
+namespace Drupal\specbee_admin;
+
+/**
+ * Class TimeService
+ * @package Drupal\specbee_admin\Services
+ */
+class TimeService {
+
+  /**
+   * TimeService constructor.
+   */
+  public function __construct() {
+  }
+
+
+  /**
+   * @return \Drupal\Component\Render\MarkupInterface|string
+   */
+  public function getTime() {
+    return \Drupal::time()->getCurrentTime();
+  }
+
+}

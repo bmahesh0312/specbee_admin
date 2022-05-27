@@ -1,0 +1,8 @@
+# Schema for the configuration files of the specbee admin module.
+specbee_admin.settings:
+  type: config_object
+  label: 'specbee admin settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'
